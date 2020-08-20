@@ -44,6 +44,6 @@ DOMAIN-SUFFIX,ls.apple.com,DIRECT
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
 
   #以下内容规则需要通过代理访问
-# PROCESS-NAME,News,Proxy
+# - PROCESS-NAME,News,Proxy
 DOMAIN,hls.itunes.apple.com,Proxy
 DOMAIN-SUFFIX,apps.apple.com,Proxy
