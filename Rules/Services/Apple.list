@@ -1,7 +1,7 @@
 # Apple 部分
 # 请注意，此规则导入后将自动创建同名策略组
-PROCESS-NAME,storedownloadd
-PROCESS-NAME,trustd
+# PROCESS-NAME,storedownloadd
+# PROCESS-NAME,trustd
 
 # > Apple API
 DOMAIN-SUFFIX,aaplimg.com,Apple
@@ -26,8 +26,8 @@ IP-CIDR,198.183.17.0/24,Apple
 IP-CIDR,205.180.175.0/24,Apple
 
 # > Apple CDN
-# > PROCESS-NAME,storedownloadd,DIRECT
-# > USER-AGENT,com.apple.appstored*,DIRECT
+# - PROCESS-NAME,storedownloadd,DIRECT
+# - USER-AGENT,com.apple.appstored*,DIRECT
 DOMAIN,aod.itunes.apple.com,DIRECT
 DOMAIN,api.smoot.apple.cn,DIRECT
 DOMAIN,appldnld.apple.com,DIRECT
