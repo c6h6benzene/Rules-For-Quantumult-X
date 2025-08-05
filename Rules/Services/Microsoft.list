@@ -132,6 +132,7 @@ host-suffix,m12.vc,Microsoft
 # > Hotmail & Outlook
 host-keyword,hotmail,Microsoft
 host-keyword,outlook,Microsoft
+host-suffix,hotmail.com,Microsoft
 host-suffix,outlookgroups.ms,Microsoft
 host-suffix,outlookmobile.com,Microsoft
 
