@@ -85,11 +85,11 @@ host-suffix,doh.dns.apple.com,Apple
 host-suffix,ls.apple.com,Apple
 
 # >> Push Service
-host,init-p01md.apple.com,Apple
-host-wildcard,init*.push.apple.com,Apple
-host-wildcard,init*.push-apple.com.akadns.net,Apple
-host-suffix,courier-push-apple.com.akadns.net,Apple
-host-suffix,push.apple.com,Apple
+host,init-p01md.apple.com,Apple Push
+host-wildcard,init*.push.apple.com,Apple Push
+host-wildcard,init*.push-apple.com.akadns.net,Apple Push
+host-suffix,courier-push-apple.com.akadns.net,Apple Push
+host-suffix,push.apple.com,Apple Push
 
 # >> Other Service
 HOST,amp-api.apps.apple.com,Apple Domestic
@@ -108,6 +108,9 @@ host-suffix,radio.itunes.apple.com,Apple Music
 host-suffix,radio-activity.itunes.apple.com,Apple Music
 host-suffix,radio-services.itunes.apple.com,Apple Music
 host-suffix,streamingaudio.itunes.apple.com,Apple Music
+
+# > Apple Podcast
+host-suffix,podcasts.apple.com,Apple Podcast
 
 # > Apple Kit
 host-suffix,apple-cloudkit.com,Apple
