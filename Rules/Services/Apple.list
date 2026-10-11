@@ -49,7 +49,7 @@ host-suffix,developer.apple.com,Apple
 
 
 # > iCloud
-;host-keyword,icloud,Apple
+host-keyword,icloud,Apple
 host-keyword,icoudo,Apple
 host-keyword,icoudos,Apple
 host-keyword,icloud.com.akadns.net,Apple
